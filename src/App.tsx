@@ -11,7 +11,7 @@ export default function App() {
 function LoginForm() {
   return (
     <div className="flex justify-center items-center h-screen flex-col gap-5">
-      <h1 className="text-4xl font-bold  text-black">Login</h1>
+      <h1 className="text-4xl font-bold  text-black uppercase">Login</h1>
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
       <button>Login</button>
